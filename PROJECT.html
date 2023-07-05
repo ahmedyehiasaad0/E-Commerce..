@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ecommerce Website Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="PROJECT.css">
+    <link rel="stylesheet" href="all.min.css">
+
+
+    <link rel="shortcut icon" type="img/png" href="images/image1.png">
+</head>
+
+<body>
+    <div class="header" id="home">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <div class="nav">
+                    <ul id="Items">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="#ىewmodels">New models</a></li>
+                        <li><a href="#Winterqualifiers">Winter qualifiers</a></li>
+
+                        <li><i class="fa-brands fa-facebook-f fa-beat fa-lg " style="color: #2e579e;"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-beat fa-lg" style="color: #e6415a;"></i></li>
+                        <li><i class="fa-brands fa-twitter fa-beat fa-lg" style="color: #3d6ec2;"></i></li>
+                        <li><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #c54a34;"></i></li>
+                    </ul>
+                </div>
+                <img src="images/menu.png" class="menu" onclick="toggle()">
+            </div>
+            <div class="row">
+                <div class="one zero">
+                    <div class="form" id="form">
+                        <form>
+                            <h2 class="in">Contact Us</h2>
+                            <input type="text" name="username" placeholder="username" autocomplete="off" class="input">
+                            <br>
+                            <input type="email" name="email" placeholder="email" autocomplete="off">
+                            <br>
+                            <!--<input type="password" name="password" placeholder="password">
+                            <br>
+                            -->
+                            <input type="text" name="text" placeholder="Name Of Product(s)" autocomplete="off">
+
+                            <button class="btn btn-info" onclick="sendd()">Send</button>
+                        </form>
+                    </div>
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>success isn't always about greatness. it's about consistency. consistant<br> hard work gains
+                        success. greatness will come.</p>
+                    <a href="#products"><button class="btn btn-danger">Explore Now</button> </a>
+                </div>
+                <div class="one">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="small">
+        <h2 class="title" id="products"><span class="span1">Featured</span> Products</h2>
+        <div class="row">
+            <div class="three">
+                <img src="images/product-1.jpg">
+                <h4>Red T-Shirt</h4>
+                <h4>Cotton</h4>
+                <p>$50.00</p>
+                <p>L,XL,XXL</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+            </div>
+            <div class="three">
+                <img src="images/product-2.jpg">
+                <h4>Shoes</h4>
+                <h4>Leather</h4>
+                <p>$30.00</p>
+                <P>41,42,43,44,45</P>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+            <div class="three">
+                <img src="images/product-3.jpg">
+                <h4>Trouser</h4>
+                <h4>Jeans</h4>
+                <p>$40.00</p>
+                <p>L,XL,XXL</p>
+                <button class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+            <div class="three">
+                <img src="images/product-4.jpg">
+                <h4>Blue T-Shirt</h4>
+                <h4>Milton</h4>
+                <p>$60.00</p>
+                <p>L,XL,XXL</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+        </div>
+        <h2 class="title"><span class="span1">Latest</span> Products</h2>
+        <div class="row">
+            <div class="three">
+                <img src="images/product-5.jpg">
+                <h4>Gray Boot</h4>
+                <h4>Cloth</h4>
+                <p>$20.00</p>
+                <p>35,36,37,38,39,40</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+            <div class="three">
+                <img src="images/product-6.jpg">
+                <h4>Black T-Shirt</h4>
+                <h4>Cotton</h4>
+                <p>$70.00</p>
+                <p>L,XL</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+            <div class="three">
+                <img src="images/product-7.jpg">
+                <h4>Socks</h4>
+                <h4>Cotton</h4>
+                <p>$5.00</p>
+                <p>L,XL</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+            <div class="three">
+                <img src="images/product-8.jpg">
+                <h4>Black Clock</h4>
+                <h4>rado</h4>
+                <p>$100.00</p>
+                <button type="button" class="btn btn-warning" onclick="displaay()">Buy</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="offer">
+        <div class="small">
+            <div class="row">
+                <div class="one">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="one">
+                    <p>Exclusively Available On RedStore</p>
+                    <h1>Small Band 4</h1>
+                    <small>
+                        The Mi Smart Band 4 Features a 39.9% Larger
+                        (than Mi Brand 3) Amoled Color full-touch display with
+                        Adjustable Brightness, So Every Thing Is Clear As Can
+                        Be.</small>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="ىewmodels">
+        <div class="models">
+            <h1><span class="spaan">N</span>ew <span class="spaann">M</span>odels</h1>
+            <hr class="hr1">
+            <hr class="hr2">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="one"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14149887-1.jpg?v=1685970293"
+                        alt="" srcset="">
+                    <p>Jacket</p>
+                    <p>EGP 699.99</p>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+
+
+                </div>
+                <div class="col-md-4">
+                    <img class="two"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14054907-1_6ab366c1-13c3-45f1-8eb9-3b63b8860fa3.jpg?v=1683092387"
+                        alt="" srcset="">
+                    <P>Cardigan</P>
+                    <p>EGP 599.99</p>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="three"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14188640-1.jpg?v=1687681977"
+                        alt="" srcset="">
+                    <P>Sweat Short</P>
+                    <p>EGP 499.99</p>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="four"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14121838-1_ded2068e-2b5d-4441-9475-586f2f4040fa.jpg?v=1687684185"
+                        alt="" srcset="">
+                    <P>Shose</P>
+                    <p>EGP 499.99</p>
+                    <a href=""><button class="btn btn-success mb-3" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="five"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/13978976-1_74e10e58-9a54-43ff-b1fa-f9181c780b78.jpg?v=1687685195"
+                        alt="" srcset="">
+                    <P>Blouse</P>
+                    <p>EGP 349.99</p>
+                    <a href=""><button class="btn btn-success mb-3" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+
+                <div class="col-md-4">
+                    <img class="six"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14190636-1_bfdaa9a7-a69d-4f8d-a5ba-5f464b5847d3.jpg?v=1686487859"
+                        alt="" srcset="">
+                    <p>T-shirt</p>
+                    <p>EGP 299.99</p>
+                    <a href=""><button class="btn btn-success mb-3" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="seven"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14169151-1_9f57db5b-056a-43bb-b352-3f90b714a0c8.jpg?v=1687682878"
+                        alt="" srcset="">
+                    <P>Cardigan</P>
+                    <p>EGP 699.99</p>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="eight"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14132919-1_7634bb1c-3c4d-44a5-a802-701e9909d5e3.jpg?v=1687682048"
+                        alt="" srcset="">
+                    <P>Belt</P>
+                    <p>EGP 229.99</p>
+                    <a href=""><button class="btn btn-success " onclick="displaay()">Buy Now</button></a>
+
+
+                </div>
+                <div class="col-md-4">
+                    <img class="nine"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/6221265418971-1.jpg?v=1687682091"
+                        alt="" srcset="">
+                    <P>Bag</P>
+                    <p>EGP 749.99</p>
+                    <a href=""><button class="btn btn-success" onclick="displaay()">Buy Now</button></a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Winterqualifiers">
+        <div class="Winterqualifiers">
+            <h1><span class="spaan1">W</span>inter <span class="spaan2">Q</span>ualifiers</h1>
+            <hr class="hr1">
+            <hr class="hr2">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="src1"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14054112-1_dd8b8e42-2cd0-49c1-b94b-39f27760697c.jpg?v=1686814005"
+                        alt="" srcset="">
+                    <p>Cardigan</p>
+                    <p>EGP 599.99 <span> EGP 999.99</span></p>
+                                        <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="src2"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14143199-1_59f1c045-b5b6-47db-a9db-c7936e8e0210.jpg?v=1685970247"
+                        alt="" srcset="">
+                    <p>Vest</p>
+                    <p>EGP 599.99 <span> EGP 1099.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src3"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14098154-1_71eebb88-5090-4713-b0f8-92d870c9ab18.jpg?v=1686489056"
+                        alt="" srcset="">
+                    <p>Pullover</p>
+                    <p>EGP 399.99 <span> EGP 999.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src4"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14045172-1_b042f3c6-5570-4559-8cf9-2f815b45bbee.jpg?v=1686488914"
+                        alt="" srcset="">
+                    <p>Vest</p>
+                    <p>EGP 599.99 <span> EGP 1099.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src5"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14121883-1_a4054bff-4476-4c90-a75a-fc1f153bc05b.jpg?v=1687684191"
+                        alt="" srcset="">
+                    <p>Shose</p>
+                    <p>EGP 499.99 <span> EGP 699.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src6"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14107788-1_a107547f-6ac0-4fa7-bf36-7394fc91f2d4.jpg?v=1687175988"
+                        alt="" srcset="">
+                    <p>Bag</p>
+                    <p>EGP 199.99 <span> EGP 399.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src7"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14138805-1.jpg?v=1687175904"
+                        alt="" srcset="">
+                    <p>Shirt</p>
+                    <p>EGP 299.99 <span> EGP 499.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src8"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14055119-1_f33cb385-99da-4a05-aaee-03da2b84e908.jpg?v=1686489023"
+                        alt="" srcset="">
+                    <p>Pullover</p>
+                    <p>EGP 399.99 <span> EGP 999.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+                <div class="col-md-4">
+                    <img class="src9"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/13877439-1_9cad4879-857d-4c64-b865-3e0290820dcc.jpg?v=1687176821"
+                        alt="" srcset="">
+                    <p>Bag</p>
+                    <p>EGP 189.99 <span> EGP 399.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="src10"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14056055-1.jpg?v=1687684626"
+                        alt="" srcset="">
+                    <p>Pullover</p>
+                    <p>EGP 399.99 <span> EGP 799.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+
+                </div>
+                <div class="col-md-4">
+                    <img class="src11"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/14055218-1.jpg?v=1684920394"
+                        alt="" srcset="">
+                    <p>Pullover</p>
+                    <p>EGP 399.99 <span> EGP 599.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="src12"
+                        src="https://cdn.shopify.com/s/files/1/0270/4333/2198/products/13928384-1.jpg?v=1687684610"
+                        alt="" srcset="">
+                    <p>Pant</p>
+                    <p>EGP 299.99 <span> EGP 479.99</span></p>
+                    <a href=""><button class="btn btn-info" onclick="displaay()">Buy Now</button></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <div class="brands">
+        <section id="sponsors">
+            <div class="small">
+                <h2 class="title">Sponsored By</h2>
+                <div class="row">
+                    <div class="four">
+                        <a href="https://www.godrej.com/"><img src="images/logo-godrej.png"></a>
+
+                    </div>
+                    <div class="four">
+                        <a href="https://www.oppo.com/eg/"><img src="images/logo-oppo.png"></a>
+                    </div>
+                    <div class="four">
+                        <a href="https://delivery.coca-cola.eg/"><img src="images/logo-coca-cola.png"></a>
+
+                    </div>
+                    <div class="four">
+                        <a href="https://www.paypal.com/eg/home"><img src="images/logo-paypal.png"></a>
+
+                    </div>
+                    <div class="four">
+                        <a href="https://www.philips.com.eg/ar/"><img src="images/logo-philips.png"></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        <div class="row">
+            <div class="five">
+                <h3>Download Our App</h3>
+                <p>Download App For Android And Ios Mobile Phone.</p>
+                <div class="app">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="six">
+                <img src="images/logo-white.png" alt="">
+                <p>Our Purpose Is To Sustinably Make The Pleasure And Benefits Of Sports Accessable To The Many.</p>
+            </div>
+            <div class="seven">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="eight">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>FaceBook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020</p>
+    </div>
+
+
+    <div class="layer">
+        <a href="#home"><i class="fa-solid fa-arrow-up fa-bounce fa-2xl"></i>
+        </a>
+    </div>
+
+
+    <!-- <script>
+        var Items = document.getElementById("Items");
+
+        Items.style.maxHeight = "0px";
+
+        function toggle() {
+            if (Items.style.maxHeight = "0px") {
+
+                Items.style.maxHeight = "200px"
+
+            }
+            else {
+
+                Items.style.maxHeight = "0px"
+
+            }
+
+        }
+
+    </script> -->
+    <script src="scrip.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="all.min.js"></script>
+    <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css">
+    <script src="path/to/fontawesome/js/all.min.js"></script>
+
+
+</body>
+
+</html>
